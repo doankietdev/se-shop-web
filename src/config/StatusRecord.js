@@ -1,0 +1,42 @@
+export const statusRecord = {
+    Pending: {
+        colorIcon_1: "red",
+        colorIcon_2: 'black',
+        colorIcon_3: 'black',
+        colorIcon_4: 'black',
+        textColor_1: 'text-[#ff0000]',
+        textColor_2: 'text-black',
+        textColor_3: 'text-black',
+        textColor_4: 'text-black',
+    },
+    Paid: {
+        colorIcon_1: "red",
+        colorIcon_2: 'red',
+        colorIcon_3: 'black',
+        colorIcon_4: 'black',
+        textColor_1: 'text-[#ff0000]',
+        textColor_2: 'text-[#ff0000]',
+        textColor_3: 'text-black',
+        textColor_4: 'text-black',
+    },
+    Delivering: {
+        colorIcon_1: "red",
+        colorIcon_2: 'red',
+        colorIcon_3: 'red',
+        colorIcon_4: 'black',
+        textColor_1: 'text-[#ff0000]',
+        textColor_2: 'text-[#ff0000]',
+        textColor_3: 'text-[#ff0000]',
+        textColor_4: 'text-black',
+    },
+    Delivered: {
+        colorIcon_1: "red",
+        colorIcon_2: 'red',
+        colorIcon_3: 'red',
+        colorIcon_4: 'red',
+        textColor_1: 'text-[#ff0000]',
+        textColor_2: 'text-[#ff0000]',
+        textColor_3: 'text-[#ff0000]',
+        textColor_4: 'text-[#ff0000]',
+    }
+}

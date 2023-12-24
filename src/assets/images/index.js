@@ -1,0 +1,26 @@
+const images = {
+    app_store: require('./app_store.png'),
+    google_play: require('./google_play.png'),
+    qr_code: require('./qr_code.jpg'),
+    ps_5: require('./ps-5.png'),
+    gucci: require('./gucci.png'),
+    speaker: require('./speaker.png'),
+    wm_collection: require('./wm-collection.jpg'),
+    shop_auth: require('./shop_auth.jpg'),
+    noImage: require('./no-image.png'),
+    game_1: require('./game_1.png'),
+    game_2: require('./game_2.png'),
+    game_3: require('./game_3.png'),
+    game_4: require('./game_4.png'),
+    game_5: require('./game_5.png'),
+    pay_1: require('./pay_1.png'),
+    pay_2: require('./pay_2.png'),
+    pay_3: require('./pay_3.png'),
+    pay_4: require('./pay_4.png'),
+    gift_cellphone: require('./gift_cellphone.png'),
+    shipper_cellphone: require('./shipper_cellphone.png'),
+    rank_cellphone: require('./rank_cellphone.png'),
+    presentor: require('./presentor.png'),
+};
+
+export default images;

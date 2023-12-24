@@ -1,0 +1,104 @@
+$primary-color: #1d3557;
+$error-color: #e63946;
+$text-color: #293241;
+$color-white: #fff;
+$shadow-color: #dedee6;
+$border-radius: 4px;
+$button-color: #DB4444;
+
+.container {
+  width: 100%;
+  background: $color-white;
+  h1 {
+    font-size: 2rem;
+    color: $text-color;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+    color: $text-color;
+    margin-bottom: 1.5rem;
+  }
+
+  label,
+  input {
+    color: $text-color;
+  }
+
+  label {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+
+  input {
+    outline: none;
+    border-bottom: 2px solid rgba($primary-color, 0.5);
+    padding: 0.5rem 1rem;
+    padding-left: 0;
+    font-size: 1rem;
+  }
+
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+  }
+
+  button {
+    color: $color-white;
+    font-size: 1rem;
+    background: $button-color;
+    border-radius: $border-radius;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 3rem;
+
+    &:hover {
+      background: rgba($button-color, 0.8);
+    }
+  }
+
+  .input-error {
+    border-color: $error-color;
+  }
+
+  .error {
+    color: $error-color;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+  }
+
+  .disabled-btn {
+    cursor: not-allowed;
+    background: rgba($button-color, 0.8);
+  }
+
+  .account-ready {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3.75rem 0 3.75rem;
+  }
+
+  .account-content{
+    font-size: 1rem;
+    color: rgba($text-color, 0.8);
+  }
+
+  .account-content-link {
+    font-weight: 600;
+  }
+
+  .forgot-password-link {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: $button-color;
+  }
+
+  .forgot-password-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

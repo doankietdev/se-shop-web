@@ -1,0 +1,102 @@
+$primary-color: #1d3557;
+$error-color: #e63946;
+$text-color: #293241;
+$color-white: #fff;
+$shadow-color: #dedee6;
+$border-radius: 4px;
+$button-color: #db4444;
+$input-color: #f5f5f5;
+
+.container {
+    width: 100%;
+    background: $color-white;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+
+    label,
+    input {
+        color: $text-color;
+    }
+
+    label {
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+    }
+
+    input {
+        outline: none;
+        border: 2px solid rgba($primary-color, 0.5);
+        border-radius: 4px;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        background: $input-color;
+    }
+
+    .form-row {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1.5rem;
+    }
+
+    button {
+        color: $color-white;
+        width: 100%;
+        font-size: 1rem;
+        background: $button-color;
+        border-radius: $border-radius;
+        border: none;
+        cursor: pointer;
+        padding: 0.7rem 1.2rem;
+
+        &:hover {
+            background: rgba($button-color, 0.8);
+        }
+    }
+
+    .input-error {
+        border-color: $error-color;
+    }
+
+    .error {
+        color: $error-color;
+        font-size: 1rem;
+        margin-top: 0.3rem;
+    }
+
+    .disabled-btn {
+        cursor: not-allowed;
+        background: rgba($button-color, 0.8);
+    }
+
+    .account-ready {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 24px 64px 0 64px;
+    }
+
+    .account-content {
+        font-size: 1rem;
+        color: rgba($text-color, 0.8);
+    }
+
+    .account-content-link {
+        text-decoration: underline;
+        font-weight: 600;
+    }
+
+    .label {
+        color: var(--Text2, #000);
+        /* Title/16PX Regular */
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+    }
+
+    .required-field {
+      color: red;
+    }
+}
