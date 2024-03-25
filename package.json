@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel-plugin-module-resolver": "^5.0.0",
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
     "@reduxjs/toolkit": "^1.9.7",
@@ -55,7 +56,6 @@
     ]
   },
   "devDependencies": {
-    "babel-plugin-module-resolver": "^5.0.0",
     "customize-cra": "^1.0.0",
     "react-app-rewired": "^2.2.1",
     "sass": "^1.69.5",
