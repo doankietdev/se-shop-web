@@ -1,73 +1,87 @@
-# Getting Started with Create React App
+# SE Shop Web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the **SE Shop Web** repository! This project serves as the frontend for the SE Shop platform, providing a seamless and engaging user experience with modern web technologies.
 
-## To install project
-### `npm install`
+## Features
 
-## Available Scripts
+- **Authentication and Authorization**
+  - Login with system account
+  - Login with **Google**
+  - Sign up
+- **Currency conversion**
+- **Payment Integration**:
+  - **MoMo Wallet**
+  - **PayPal**
+  - **VNPay**
+- **Shipping Management**:
+  - Integration with **Viettel Post** service
+- **File Uploading**
+- **Product Management**
+- **Cart Management**
+- **Discount Management**
+- **Order Management**
+- **Address Management**
+- **User Management**
+- **...**
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Technologies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Core Framework:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **ReactJS**: Component-based library for building dynamic user interfaces
 
-### `npm test`
+### Styling:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **TailwindCSS**: Utility-first CSS framework for rapid UI development
 
-### `npm run build`
+### Routing:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React Router DOM**: Declarative routing for React applications
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### HTTP Client:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **RTK Query**: Promise-based HTTP client for making API requests
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Deployment Environments
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Staging**: [se-shop-web.vercel.app](https://se-shop-web.vercel.app)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  - **Testing account:**
+    Email: doankietdev.test@gmail.com
+    Password: Test@123
+  - **Testing payment accounts:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    - **Paypal**:
+      Email: `sb-d0924333115240@personal.example.com`
+      Password: `Z64g<a5T`
+    - **MoMo**
 
-## Learn More
+      - Debit Card
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+        | No  | Name         | Card Number         | Release Date | OTP | Test Case           |
+        | --- | ------------ | ------------------- | ------------ | --- | ------------------- |
+        | 1   | NGUYEN VAN A | 9704 0000 0000 0018 | 03/07        | OTP | Successful          |
+        | 2   | NGUYEN VAN A | 9704 0000 0000 0026 | 03/07        | OTP | Card Locked         |
+        | 3   | NGUYEN VAN A | 9704 0000 0000 0034 | 03/07        | OTP | Insufficient Funds  |
+        | 4   | NGUYEN VAN A | 9704 0000 0000 0042 | 03/07        | OTP | Card Limit Exceeded |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+      - Credit Card
 
-### Code Splitting
+        | No  | Name         | Number              | Expiry Date | CVC | OTP    | Test Case       |
+        | --- | ------------ | ------------------- | ----------- | --- | ------ | --------------- |
+        | 1   | NGUYEN VAN A | 5200 0000 0000 1096 | 05/25       | 111 | OTP    | Card Successful |
+        | 2   | NGUYEN VAN A | 5200 0000 0000 1104 | 05/25       | 111 | OTP    | Card failed     |
+        | 3   | NGUYEN VAN A | 4111 1111 1111 1111 | 05/25       | 111 | No OTP | Card Successful |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+For any inquiries or support, please contact:
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Email: doankietdev@gmail.com
+- GitHub: [doankietdev](https://github.com/doankietdev)
